@@ -3,7 +3,7 @@
 	
 	-- current_working_directory : Prints the current working directory.
 
-	-- l-listit : Lists the files or directories within the current directory.
+	-- 1-listit : Lists the files or directories within the current directory.
 
 	--
 
