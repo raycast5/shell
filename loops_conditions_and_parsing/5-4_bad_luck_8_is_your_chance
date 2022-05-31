@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#Prints "Best School" in lines 1,2,3,5,7,9 and "bad luck on line 4, good luck on line 8#
+i=0
+while [ $i -lt 8 ]
+do	
+	echo "Best School"
+	((i++))
+if ((i==3)) 
+then
+	echo "bad luck"
+elif ((i==6))
+then
+	echo "good luck"
+else ((i>7)) 
+
+fi
+done
