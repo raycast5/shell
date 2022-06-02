@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Displays the pid and the name of bash processes
+top -b -n1 | grep 'bash' | cut -d' ' -f3,30
