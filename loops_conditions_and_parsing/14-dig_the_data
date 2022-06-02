@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Parses apache log files and prints columns 1 and 9 and then sorts it according to frequency of occurrence. #
+awk '{ print $1, $9 }' < apache-access.log | sort | uniq -c | sort -nr
+
