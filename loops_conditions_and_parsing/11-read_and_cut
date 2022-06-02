@@ -3,5 +3,5 @@
 IFS=' '
 while read -r line;
 do
-	echo $line
+	echo "$line"
 done < /etc/passwd | cut -d':' -f1,3,6- | cut -d':' -f1-3
