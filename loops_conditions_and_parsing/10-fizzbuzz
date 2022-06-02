@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#Prints numbers 1-100 if the numbers are multiples of 3 and 5 prints FizzBuzz instead, if the numbers are only multiples of 3 prints Fizz instead and if the numbers are only multiples of 5 it prints Buzz#
+i="1"
+while ((i<=100))
+do		
+	if [ $((i%5)) -eq "0" ] && [ $((i%3)) -eq "0" ] ; then
+	echo "FizzBuzz"
+		elif [ $((i%3)) -eq "0" ] ; then
+		echo "Fizz"		
+			elif [ $((i%5)) -eq "0" ] ; then
+			echo "Buzz"
+ 				else
+				echo "$i"
+				fi
+	 			((i++))
+				
+done
