@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Prints a list of running processes by hierarchy for bash
+# shellcheck disable=SC2009
 ps auxf | grep 'bash'
