@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Prints a list of running processes by hierarchy for bash
+ps auxf | grep 'bash'
